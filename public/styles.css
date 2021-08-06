@@ -1,0 +1,260 @@
+#Encabezado{
+    background-image: url(images/e.jpg);
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    border-radius:solid;
+}
+body{
+    margin: 0;
+}
+
+.letraEnc{
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color:#ecf7f7;
+    
+    font-size:150%;
+    text-shadow: 4px 4px 6px #000000 ;
+}
+
+.letraEnc h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(253, 236, 0);
+}
+
+button{
+    
+    text-align: center;
+    background: none;
+    color:#f5f11d ;
+    border: 4px solid #f5f11d;
+    padding: 5%;
+    font-size: 50%;
+    transition:color 0.25s, transform 0.5s, box-shadow 0.25s, border-color 0.25s;
+
+    
+}
+
+button:hover {
+    
+    
+    border-color: #94ffff;
+    color:#94ffff;
+    cursor: pointer;
+    box-shadow:  5px 10px 18px #ffff44;
+    transform: translateY(-0.5em);
+}
+
+/* main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border-radius:solid;
+    padding:30px;
+    background-color: white;
+} */
+
+ #acercaDe{
+    padding: 30px;
+}  
+#acercaDe p{
+    padding: 30px;
+    color: black;
+}  
+
+/* #acercaDe div{
+    max-height: 300px;
+    width: 80%;
+
+} */
+
+
+#acercaDe div img{
+    margin: 50px 10px 10px 10px ;
+    width: 100%;
+    border: 5px solid  rgb(245, 24, 24);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 0.5s;
+    min-width: 100px;
+    max-width: 500px;
+
+}
+#acercaDe div img:hover{
+    
+    opacity:70%;
+    transform:scale(1.05);
+}
+
+.barraGrad{
+    height: 7px;
+    background: rgb(255,255,68);
+    background:   linear-gradient(90deg, rgb(245, 7, 7) 0%, rgb(243, 131, 39) 35%, rgb(253, 236, 0) 100%);
+}
+
+
+.separacion{
+
+    text-align: center;
+    
+}
+article{
+    width: 90%;
+    text-align: center;
+    
+    
+}
+
+
+#acercaDe article h2{
+    margin: 30px 0 0 60px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 149, 11);
+    font-size: xx-large;
+
+}
+
+#acercaDe article h3{
+    margin: 30px 0 0 60px;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+article button{
+    margin: 0 0 0 40px;
+    text-align: center;
+    background: rgb(247, 3, 3);
+    color:#070700 ;
+    border: 4px solid #f51d1d;
+    padding: 5%;
+    font-size: 90%;
+    transition:color 0.25s, transform 0.5s, box-shadow 0.25s, border-color 0.25s;
+
+}
+
+article button:hover {
+    
+    
+    border-color: #ff9900;
+    color:#fffb04;
+    cursor: pointer;
+    box-shadow:  5px 10px 18px #ffff44;
+    transform: translateY(-0.5em);
+}
+
+article p{
+    text-align: justify;
+    margin: 20px 0 0 50px;
+}
+
+#Productos{
+    color: white;
+    text-align: center;
+    padding:20px;
+    display: flex;
+    justify-content:space-around;
+    grid-template-columns: 1fr;
+    flex-direction: row;
+    background-color: rgba(190, 9, 9, 0.89);
+    
+}
+.container{
+    
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.productos img{
+    width: 200px;
+    height: 150px;
+}
+@media (max-width: 800px){
+    .flex-container{
+        flex-direction: column;}
+}
+
+#Productos h2{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    
+    text-shadow: 4px 4px 6px yellow;
+}
+
+#Productos p{
+    
+    color: white;
+}
+
+#Productos img{
+    margin: 20px;
+    border-radius:10px;
+    transition: transform 0.5s;
+    letter-spacing: 1px;
+}
+
+#Productos img:hover{
+    border:1px solid #8dffff;
+    box-shadow: 0 0.5em 0.5em 1px #f88d00;
+
+    transform:translate(-0.5em);
+
+}
+
+.contac{
+    color:#f30707;
+   
+    text-shadow: 4px 4px 6px white  ;
+    letter-spacing: 1px;
+
+  }
+
+.produc{
+    margin-right: 100px;
+}
+
+footer div.derechos{
+    background-color: #e40707;
+    max-height: 700px;
+  
+    text-align: center;
+    padding:60px;
+    
+    justify-content:space-around;
+ 
+}
+
+footer{
+    background-color: rgb(250, 0, 0);
+}
+
+p{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
